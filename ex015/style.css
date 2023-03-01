@@ -1,0 +1,16 @@
+@charset "utf-8";
+html {
+    background-color: rgb(252, 218, 177);
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    color: blue;
+}
+p {
+    color: rgb(12, 7, 7);
+    width: 200 px;
+    border: 1 px solid black;
+  }
