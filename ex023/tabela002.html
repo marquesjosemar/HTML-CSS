@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Com Grande Volume de Dados</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        caption {
+            background-color: rgb(97, 93, 93);
+            color: white;
+        }
+        
+        table, tbody {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 300px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: gray;
+            color: navy;
+        }
+
+        td, th {
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        
+        .num {
+            text-align: right;
+        }
+
+        tbody { 
+            border-collapse: collapse;
+            border: 1px solid black
+        }
+
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption>Exemplo de uma tabela grande</caption>
+        <tr>
+            
+            <thead>
+                <th>Estado</th>
+                <th>População</th>
+            </thead>
+        </tr>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46.024.937</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.732.660</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.615.526</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.659.023</td>
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.835.379</td>
+            </tr>
+            
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.088.065</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th>Total</th>
+            <td> <strong>207 750 291</strong></td>
+        </tfoot>
+    </table>
+</body>
+</html>
