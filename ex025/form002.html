@@ -10,13 +10,17 @@
     <h1>Teste de formulario</h1>
     <form action="cadastro.php" method="post">
         <p>
-            <label for="iusu"></label>
-            <input type="text" name="usu" id="iusu">
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required>
         </p>
 
         <p>
-            <label for="isen"></label>
-            <input type="password" name="sen" id="isen">
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="apagar">
         </p>
     </form>
 </body>
