@@ -1,0 +1,8 @@
+@charset "utf-9";
+
+/* Configurações em pé*/
+
+body {
+    background: url(../imagens/cev-portrait.jpg);
+    background-position: center;
+}
