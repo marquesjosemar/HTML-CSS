@@ -23,12 +23,17 @@
           </p>
 
           <p>
-            <label for="lstprof">Profissão: </label>
-            <input type="text" name="prof" list="lstprof">
-            <datalist>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
                 <option>Administrador</option>
                 <option>Advogado</option>
             </datalist>
+          </p>
+
+          <p>
+            <label for="imsg">Mensagem: </label>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
           </p>
     </form>
             <input type="submit" value="Enviar">
