@@ -2,3 +2,26 @@
 
 /* todas as demais mídias */
 
+
+
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+        body {
+            background-image: url(../imagens/back-tablet.jpg);
+        }
+        #phone {display: none;}
+        #tablet { display: block; }
+        #print { display: none; }
+        #pc { display: none; }
+        #tv { display: none; }
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 2000px) {
+        body {
+            background-image: url(../imagens/back-pc.jpg);
+        }
+        #phone {display: none;}
+        #tablet { display: none; }
+        #print { display: none; }
+        #pc { display: block; }
+        #tv { display: none; }
+    }
