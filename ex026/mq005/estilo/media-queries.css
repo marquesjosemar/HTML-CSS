@@ -9,7 +9,7 @@ deskptop: de 992px a 1200px
 outros dispositivos: acima de 1200px
 */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
     
     #burguer {
         display: none;
